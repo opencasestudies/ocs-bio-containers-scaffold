@@ -11,7 +11,7 @@ This repository provides the beginning scaffold for the [ocs-bio-containers open
 | Data Import           | `01_extract_data.R`|
 | Data Wrangling        | `02_wrangle.R`     |
 | Data Visualization    | `03a_visualization.R` <br> `03b_visualization_patchwork.R` |
-| Data Analysis         | `04_analysis_metric.R <br> `run_analysis.sh` |
+| Data Analysis         | `04_analysis_metric.R` <br> `run_analysis.sh` |
 
 * `continued_learning_scripts` contains the scripts for the Continued Learning sections of the case study.
     * The `refinement` sub-directory contains an alternate visualization script as well as an alternative version of the script to run the whole analysis. These are meant for the Reinforcement Exercises section.

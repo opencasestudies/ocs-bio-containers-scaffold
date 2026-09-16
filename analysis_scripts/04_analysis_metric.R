@@ -28,7 +28,7 @@ find_cor_matrix <- function(input_df, filter_description = "All Data"){
       filter(longitudinal == "No")
   } else if(filter_description == "Adult"){
     to_assess <- input_df %>%
-      filter(!str_detect(tolower(cohort_description), 
+      filter(!stringr::str_detect(tolower(cohort_description), 
                          "infants|children"))
   } else{
     #Using All Datasets

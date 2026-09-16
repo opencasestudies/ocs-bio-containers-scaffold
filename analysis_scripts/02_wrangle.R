@@ -4,7 +4,7 @@ library(here)
 library(tidyverse)
 library(readr)
 
-load(here::here("data", "imported", "raw_table1.rda"))
+load(here("data", "imported", "raw_table1.rda"))
 
 #wrangle the data
 table1_extract <- raw_table %>%
@@ -41,14 +41,14 @@ cat("Number of NAs: ", sum(is.na(table1_extract)), "\n")
 cat("Dataset Name (Row 4): ", unlist(table1_extract[4, "dataset_name"]), "\n")
 
 #save the data
-output_dir <- here::here("data", "wrangled")
+output_dir <- here("data", "wrangled")
 
 if (!dir.exists(output_dir)) {
   dir.create(output_dir, recursive = TRUE)
 }
 
-save(table1_extract, file = here::here(output_dir,
-                                       "wrangled_data.rda"))
-readr::write_csv(table1_extract,
-                 file = here::here(output_dir,
-                                   "wrangled_data.csv"))
+save(table1_extract, file = here(output_dir,
+                                 "wrangled_data.rda"))
+write_csv(table1_extract,
+                 file = here(output_dir,
+                             "wrangled_data.csv"))

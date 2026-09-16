@@ -24,9 +24,9 @@ if (!dir.exists(output_dir)) {
 
 
 save(raw_table,
-    file = here::here(output_dir,
-                      "raw_table1.rda"))
+    file = here(output_dir,
+                "raw_table1.rda"))
 
 readr::write_csv(raw_table,
-                 file = here::here(output_dir,
-                                   "raw_table1.csv"))
+                 file = here(output_dir,
+                             "raw_table1.csv"))

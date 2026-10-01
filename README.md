@@ -22,4 +22,4 @@ This repository provides the beginning scaffold for the [ocs-bio-containers open
 As [described within the case study](https://www.opencasestudies.org/ocs-bio-containers/#step-3a-downloading-version-controlled-analysis-files), this repository can be used to 
 
 1. *Option A* Download the analysis scripts in a `.zip` file, extract them, and use the directory/scripts.
-2. *Option B* Set up a new GitHub respoitory from this template, and clone your new repository locally.
+2. *Option B* Set up a new GitHub repository from this template, and clone your new repository locally.

@@ -20,7 +20,7 @@ hmdb_scatter <- table1_extract %>%
   ggplot2::geom_text(vjust = -0.5, size = 2.8, color = "black") +
   ggplot2::scale_color_viridis_d(end = 0.6) +
   ggplot2::labs(title = "Paired sample count vs HMDB annotation coverage",
-                x = "No. samples with paired data",
+                x = "Samples with paired data",
                 y = "HMDB Annotated compounds",
                 color = "Longitudinal")  +
   ggplot2::theme_minimal(base_size = 12) +
@@ -49,7 +49,7 @@ kegg_scatter <- table1_extract %>%
   geom_text(vjust = -0.5, size = 2.8, color = "black") +
   scale_color_viridis_d(end = 0.6) +
   labs(title = "Paired sample count vs KEGG annotation coverage",
-       x = "No. samples with paired data",
+       x = "Samples with paired data",
        y = "KEGG Annotated compounds",
        color = "Longitudinal")  +
   theme_minimal(base_size = 12) +

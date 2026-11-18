@@ -33,7 +33,7 @@ plotly_plot_hmdb <- table1_extract %>%
     ) %>% 
     plotly::layout(
         title = 'Paired sample count vs HMDB annotation coverage', 
-        xaxis = list(title = 'No. samples with paired data'), 
+        xaxis = list(title = 'Samples with paired data'), 
         yaxis = list(title = 'HMDB Annotated compounds')
     )
 
@@ -53,7 +53,7 @@ plotly_plot_kegg <- table1_extract %>%
     ) %>% 
     plotly::layout(
         title = 'Paired sample count vs KEGG annotation coverage', 
-        xaxis = list(title = 'No. samples with paired data'), 
+        xaxis = list(title = 'Samples with paired data'), 
         yaxis = list(title = 'KEGG Annotated compounds')
     )
 

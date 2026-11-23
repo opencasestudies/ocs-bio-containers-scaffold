@@ -16,7 +16,8 @@ This repository provides the beginning scaffold for the [ocs-bio-containers open
 * `continued_learning_scripts` contains the scripts for the Continued Learning sections of the case study.
     * The `refinement` sub-directory contains an alternate visualization script as well as an alternative version of the script to run the whole analysis. These are meant for the Reinforcement Exercises section.
     * The `beginner` sub-directory contains another alternate visualization script as well as another alternative version of the script to run the whole analysis. These are meant for the Beginner Exercise within the Advancement Exercises section.
-
+* The `dockerfiles` directory contains the Dockerfile used to create the [`bioocs/ocs-bio-containers-base`](https://hub.docker.com/r/bioocs/ocs-bio-containers-base) image that is used for the beginning activities of the case study. Learners will update the file in this directory as part of the activities in the Data Wrangling section of the case study.
+  
 ## Ways to use this Template repository
 
 As [described within the case study](https://www.opencasestudies.org/ocs-bio-containers/#step-3a-downloading-version-controlled-analysis-files), this repository can be used to 
